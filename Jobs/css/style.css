@@ -1,0 +1,228 @@
+/*-------------------------------------Universal Styles --------------------------------------*/
+
+body, html {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    transition-delay: .1s;
+}
+
+a:visited {
+    color: lightgrey;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------------------- Upper Colorful Border ------------------------------- */
+.color-line{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.up-colors {
+    width: 12.5%;
+    content: " ";
+    padding: 2px;
+}
+
+.red {
+    background: tomato;
+
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: deepskyblue;
+}
+
+.purple {
+    background: slateblue;
+}
+
+/* ----------------------------------- Navigation ------------------------------- */
+
+nav, .nav-items, .logo-items {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 20px;
+    font-family: 'Poiret One', cursive;
+}
+
+.nav-items {
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+nav {
+    justify-content: space-around;
+}
+
+#logo {
+    margin-right: 15px;
+    
+}
+
+.logo-items h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.4rem;
+}
+
+#logo-text {
+    font-family: 'Poiret One', cursive;
+}
+
+nav {
+    margin-bottom: 80px;
+}
+
+/* ----------------------------------- Job Listings ------------------------------- */
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+.job-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    padding: 20px 0px;
+}
+
+.job-data {
+    display: flex;
+    flex-direction: row;
+}
+
+.job-box-it {
+    display: flex;
+    flex-direction: column;
+}
+
+.job-box-it ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+}
+
+.job-box-it li {
+    margin-left: 30px;
+    font-family: 'Poiret One', cursive;
+    color: lightgrey;
+    font-weight: 600;
+    width: 100px;
+}
+
+.job-box-it h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 60px;
+    font-family: 'Amatic SC', cursive;
+    color: black;
+    margin-left: -210px;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+
+.job-box-anchor:hover {
+    background: #f7f7f7;
+    color: darkgrey;
+}
+
+        /* --------------------------------------Job Types -------------------------------*/
+
+            .full-time {
+                font-family: 'Shadows Into Light', sans-serif;
+                color: tomato;
+                font-weight: 800;
+                font-size: 1.5rem;
+                margin-top: 8px;
+            }
+
+            .contract {
+                font-family: 'Shadows Into Light', sans-serif;
+                color: slateblue;
+                font-weight: 800;
+                font-size: 1.5rem;
+                margin-top: 8px;
+            }
+
+            .part-time {
+                font-family: 'Shadows Into Light', sans-serif;
+                color: deepskyblue;
+                font-weight: 800;
+                font-size: 1.5rem;
+                margin-top: 8px;
+            }
+
+             .freelance {
+                font-family: 'Shadows Into Light', sans-serif;
+                color: yellow;
+                font-weight: 800;
+                font-size: 1.5rem;
+                margin-top: 8px;
+            }
+
+/* ----------------------------------- Date Boxes ------------------------------- */
+
+.date {
+    margin-top: 0;
+    margin-left: 5.5%;
+    border: 2px solid lightgrey;
+    border-radius: 50px;
+    width: 120px;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+/* ----------------------------------- Load More Button ------------------------------- */
+
+.load-more {
+    margin: auto;
+    border: 2px solid slateblue;
+    border-radius: 50px;
+    width: 250px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    margin-bottom: 80px;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+#load-more {
+    margin: 10px auto;
+    color: slateblue;
+    font-size: 1.5rem;
+}
+
+
+/* ----------------------------------- Vertical Line ------------------------------- */
+
+.vertical-line {
+    content: : " ";
+    border-left: 2px solid lightgrey;
+    padding: 50px;
+    margin-top: 0px;
+    margin-left: 120px;
+}
+

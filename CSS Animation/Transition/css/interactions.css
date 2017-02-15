@@ -1,0 +1,44 @@
+/* ================================= 
+  Button Transitions
+==================================== */
+
+.button {
+	color: #fff;
+	background: #4a89ca;
+	transition-duration: .4s;
+}
+
+.button:hover {
+	background: tomato;
+	border-radius: 1em;
+}
+
+.button:active {
+	background: #a33830;
+}
+
+/* ================================= 
+  Photo Overlay Transitions
+==================================== */
+
+
+.photo-overlay {
+	opacity: 0;
+	transition-duration: .5s;
+}
+
+.photo-overlay:hover{
+	opacity: 1;
+}
+
+
+img {
+	transition-duration: 2s;
+	transition-delay: .1s;
+	transition-timing-function: cubic-bezier(.43,-1.6,.54,1.81);
+	transition-property: transform;
+}
+
+img:hover {
+	transform: scale(2);
+}
